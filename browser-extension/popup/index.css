@@ -1,0 +1,64 @@
+html, body {
+  width: 512px;
+  overflow-x: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  border: none;
+  width: 100%;
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+#popup-content {
+    display: flex;
+}
+
+.dark-button {
+    background-color: grey;
+}
+
+.input-field {
+    width:80%;
+    margin-left:8%;
+}
+
+#popup-output {
+    min-width: 256px;
+    white-space: pre-wrap;
+}
+
+#popup-buttons, #popup-output {
+    flex: 1;
+    font-size: 14px;
+    margin: 8px;
+}
+@media (prefers-color-scheme: light) {
+    html, body {
+        background-color: white;
+    }
+    #popup-output {
+        background-color: lightgrey;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+        background-color: #1c1b22;
+    }
+    #popup-output {
+        background-color: lightgrey;
+    }
+}

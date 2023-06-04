@@ -1,0 +1,14 @@
+[package]
+name = "arb-native-messaging-host"
+description = "◉ A browser extension for Arbitrary Protocols on top of Bitcoin (Bitcoin NFTs/Ordinals, BRC-20, & Bitcoin Identities/Usernames)"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-only"
+
+[dependencies]
+serde_json = "1.0.81"
+serde = { version = "1.0.137", features = ["derive"] }
+
+[[bin]]
+name = "arb-native-messaging-host"
+path = "src/main.rs"

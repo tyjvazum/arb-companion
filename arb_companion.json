@@ -1,0 +1,7 @@
+{
+  "name": "arb_companion",
+  "description": "Arb Companion",
+  "path": "/arb-companion/arb-native-messaging-host",
+  "type": "stdio",
+  "allowed_extensions": [ "arb_companion@github.com" ]
+}
